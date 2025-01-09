@@ -37,14 +37,14 @@
             </div>
             <div class="row pt-3">
               <div class="col-6 text-center">
-                <button type="button" class="btn btn-secondary" (click)="reset()">Reset</button>
+                <button type="button" class="btn btn-secondary btnWidth" (click)="reset()">Reset</button>
               </div>
               <div class="col-6 text-center">
                 @if (employeeForm.controls['empId'].value=='1') {
-                <button type="button" class="btn btn-primary" (click)="onSave()">Save</button>
+                <button type="button" class="btn btn-primary btnWidth" (click)="onSave()">Save</button>
                 }
                 @else {
-                <button type="button" class="btn btn-primary" (click)="onUpdate()">Update</button>
+                <button type="button" class="btn btn-primary btnWidth" (click)="onUpdate()">Update</button>
                 }
               </div>
             </div>

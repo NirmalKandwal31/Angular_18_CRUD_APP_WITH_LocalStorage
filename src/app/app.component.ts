@@ -37,7 +37,6 @@ export class AppComponent {
   }
 
   onSave() {
-    console.log(this.employeeForm.value);
     const oldData = localStorage.getItem('EmployeeData');
     if (oldData != null) {
       let parseData = JSON.parse(oldData);

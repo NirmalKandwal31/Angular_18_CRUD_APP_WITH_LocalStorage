@@ -1,21 +1,30 @@
 /* Center the form */
 .centered-form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 .card {
-  width: 100%;
-  max-width: 400px;
-  margin: auto;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
 }
 
 .table-responsive {
-  margin-top: 20px;
+    margin-top: 20px;
 }
 
-.result-table{
+.result-table {
     max-width: 80rem;
+}
+
+.btnWidth {
+    width: 10rem;
+}
+
+label {
+    margin-bottom: .3rem;
+    margin-top: .3rem;
 }
